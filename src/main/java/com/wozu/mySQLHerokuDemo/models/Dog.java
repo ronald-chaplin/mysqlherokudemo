@@ -36,4 +36,9 @@ public class Dog {
     public Long getId() {
         return id;
     }
+
+    public Dog(String message, String status){
+        this.message = message;
+        this.status = status;
+    }
 }
